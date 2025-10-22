@@ -6,9 +6,9 @@ My solution -> *[2025_10_22_the_wrong_re_turn](2025_10_22_the_wrong_re_turn.py)*
 
 It was a perfectly miserable autumn day: rain, gray skies, and your boss’s reluctant blessing to “enjoy” two whole vacation days. Not enough for the beach, but enough to visit your old uncle. He lives in the middle of nowhere and you've been too busy to even make a birthday call.
 
-You packed light: clothes, essentials, and your old laptop — because nothing says rest like checking emails in the woods. The car was supposed to get you there by midnight.
+You packed light: clothes, essentials, and your old laptop - because nothing says rest like checking emails in the woods. The car was supposed to get you there by midnight.
 
-Then came the wrong turns. The dead GPS. And finally — that sound.
+Then came the wrong turns. The dead GPS. And finally - that sound.
 
 A pop. A hiss. Your tire had quit. Congratulations.
 
