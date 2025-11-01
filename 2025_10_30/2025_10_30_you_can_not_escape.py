@@ -30,8 +30,8 @@ def shortest_path(mat):
     n = len(map)
     m = len(map[0])
     p = find_point_coorinates(mat, start_point_sign)
-    dRow = [-1, 1, 0, 0]
-    dCol = [0, 0, -1, 1]
+    d_row = [-1, 1, 0, 0]
+    d_col = [0, 0, -1, 1]
 
     visited = [[walkable_floor_sign for _ in range(m)] for _ in range(n)]
 
@@ -53,12 +53,12 @@ def shortest_path(mat):
 
         for i in range(4):
             currenr_destination = destinations[i]
-            newRow = row + dRow[i]
-            newCol = col + dCol[i]
+            new_row = row + d_row[i]
+            new_col = col + d_col[i]
 
-            if is_cell_valid(newRow, newCol, n, m, mat, visited):
-                visited[newRow][newCol] = visited_floor_sign
-                q.append([newRow, newCol, dist + currenr_destination])
+            if is_cell_valid(new_row, new_col, n, m, mat, visited):
+                visited[new_row][new_col] = visited_floor_sign
+                q.append([new_row, new_col, dist + currenr_destination])
 
     return -1
 
